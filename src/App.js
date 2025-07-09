@@ -15,7 +15,7 @@ function App() {
     setLoading(true);
     
     try {
-      const response = await fetch('http://localhost:5000/api/remediate', {
+      const response = await fetch('https://6baa059bccfa.ngrok-free.app/api/remediate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
