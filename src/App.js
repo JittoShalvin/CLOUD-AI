@@ -15,7 +15,7 @@ function App() {
     setLoading(true);
     
     try {
-      const response = await fetch('https://01e0f0f52435.ngrok-free.app/api/remediate', {
+      const response = await fetch('https://llmbe-tifu.onrender.com/api/remediate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
